@@ -28,4 +28,6 @@ public class BaseScreen {
         new WebDriverWait(driver,time)
                .until(ExpectedConditions.visibilityOf(element));
     }
+
+
 }
